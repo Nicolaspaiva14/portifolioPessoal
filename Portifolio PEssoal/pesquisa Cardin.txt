@@ -1,0 +1,87 @@
+História dos Bancos de Dados
+A história dos bancos de dados acompanha o desenvolvimento da computação ao longo das décadas. Nos primórdios, antes dos anos 1960, os dados eram armazenados em arquivos planos, chamados de "flat files", geralmente em formato de texto, sem estrutura definida. Esses arquivos dificultavam operações como busca, atualização e organização dos dados.
+
+Durante a década de 1960 e início de 1970, surgiram os primeiros modelos de banco de dados hierárquico e em rede. O modelo hierárquico organizava os dados em estruturas semelhantes a árvores, onde cada registro tinha um "pai" e vários "filhos", como no IBM IMS (Information Management System), lançado em 1966 e utilizado pela NASA no projeto Apollo. Já o modelo de rede, mais flexível, permitia que os dados tivessem múltiplos relacionamentos, como no padrão CODASYL de 1969.
+
+A grande revolução veio nos anos 1970, com a proposta do modelo relacional por Edgar F. Codd, um pesquisador da IBM. Em 1970, Codd publicou um artigo propondo a ideia de organizar os dados em tabelas (linhas e colunas), permitindo o uso de álgebra relacional para manipulação de dados. Isso levou à criação de protótipos como o System R (IBM) e Ingres (na Universidade da Califórnia), e, posteriormente, ao surgimento do Oracle, o primeiro banco relacional comercial, em 1979.
+
+Nas décadas de 1980 e 1990, os Sistemas Gerenciadores de Banco de Dados (SGBDs) relacionais se consolidaram no mercado. SQL (Structured Query Language) se tornou a linguagem padrão para consulta e manipulação de dados. Bancos como Oracle, IBM DB2, Microsoft SQL Server, MySQL e PostgreSQL se tornaram amplamente utilizados.
+
+Com o avanço da internet e o surgimento do Big Data nos anos 2000, houve uma nova transformação: os bancos NoSQL surgiram para lidar com dados não estruturados, alta escalabilidade e desempenho. Esses bancos foram projetados para aplicações modernas, como redes sociais, sistemas de recomendação e armazenamento de grandes volumes de dados.
+
+Na atualidade (2020 em diante), os bancos de dados evoluíram ainda mais, com foco em soluções em nuvem, bancos serverless, multimodelo (que combinam diferentes tipos de armazenamento), uso de inteligência artificial e integrações com APIs modernas como GraphQL. O objetivo é garantir escalabilidade, resiliência e performance para aplicações complexas e distribuídas.
+
+Exemplos Históricos Relevantes
+IBM IMS (1966): Banco de dados hierárquico, pioneiro no mercado, utilizado no projeto Apollo da NASA.
+
+CODASYL (1969): Modelo em rede, permitia relacionamentos complexos entre registros.
+
+Ingres (1974): Um dos primeiros bancos relacionais acadêmicos.
+
+Oracle (1979): Primeiro banco de dados relacional comercial.
+
+MySQL (1995): Banco de dados relacional de código aberto, amplamente utilizado na web.
+
+MongoDB (2009): Um dos primeiros bancos NoSQL, baseado em documentos JSON.
+
+Tipos de Banco de Dados
+Os bancos de dados podem ser classificados de acordo com sua estrutura e uso:
+
+Relacional (RDBMS): Armazena os dados em tabelas relacionáveis, com uso da linguagem SQL. Ex: MySQL, PostgreSQL, Oracle, SQL Server.
+
+NoSQL: Projetado para dados semi ou não estruturados, geralmente usado em aplicações que exigem alta escalabilidade e desempenho. Existem subtipos:
+
+Documento: MongoDB, CouchDB.
+
+Chave-valor: Redis, Amazon DynamoDB.
+
+Colunar: Apache Cassandra, HBase.
+
+Grafos: Neo4j, ArangoDB.
+
+Orientado a Objetos: Utiliza conceitos de programação orientada a objetos (classes, herança, encapsulamento) para armazenar dados. Ex: ObjectDB, db4o.
+
+Banco de Dados de Séries Temporais: Armazena dados que mudam ao longo do tempo, como métricas e logs. Ex: InfluxDB, TimescaleDB.
+
+NewSQL: Une as vantagens do SQL com a escalabilidade do NoSQL. São modernos, distribuídos e mantêm a consistência. Ex: CockroachDB, Google Spanner.
+
+Bancos de Dados Gratuitos (Open Source ou Free)
+Muitos bancos de dados poderosos estão disponíveis gratuitamente e com código aberto. Alguns exemplos:
+
+PostgreSQL: Relacional, open source, muito robusto e extensível. Suporta JSON, índices complexos, replicação, etc.
+
+MySQL: Relacional, popular em aplicações web. Usa licença GPL.
+
+SQLite: Relacional, embutido e leve. Usado em navegadores e apps móveis.
+
+MongoDB: Banco NoSQL baseado em documentos. Licença SSPL (uso gratuito com restrições comerciais).
+
+Redis: Banco chave-valor, extremamente rápido, usado como cache ou banco de dados primário.
+
+MariaDB: Fork do MySQL, 100% open source, criado pela comunidade.
+
+Bancos de Dados Proprietários
+São sistemas fechados, com licença paga, geralmente usados em ambientes corporativos com necessidades de alto desempenho, suporte e segurança:
+
+Oracle Database: Um dos mais poderosos e utilizados em grandes empresas.
+
+Microsoft SQL Server: Integrado ao ecossistema Windows, possui versão gratuita (Express).
+
+IBM Db2: Usado em grandes sistemas corporativos, bancos e governo.
+
+SAP HANA: Banco em memória, voltado para análise de dados em tempo real.
+
+Snowflake: Banco de dados na nuvem, escalável e voltado para data warehouses modernos.
+
+Exemplos de Bancos de Dados Relacionais
+Os bancos relacionais continuam sendo os mais usados em muitas aplicações por sua robustez e integridade transacional. Alguns exemplos:
+
+PostgreSQL: Muito usado em aplicações complexas, suporta extensões e tipos de dados personalizados.
+
+MySQL: Muito popular em websites e aplicações de pequeno a médio porte.
+
+SQLite: Ideal para aplicações locais, mobile e embarcadas.
+
+Oracle Database: Escolha comum para aplicações empresariais robustas.
+
+Microsoft SQL Server: Comum em ambientes corporativos Windows, também usado em BI e análises de dados.

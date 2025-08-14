@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio | Nicolas Paiva</title>
+    <meta name="description" content="Portfólio de Nicolas Paiva - Desenvolvedor Front-end e UX/UI Designer" />
+    <meta name="author" content="Nicolas Paiva" />
+    <meta property="og:title" content="Portfólio | Nicolas Paiva" />
+    <meta property="og:description" content="Desenvolvedor Front-end e UX/UI Designer baseado no Brasil" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seudominio.com" />
+    <meta property="og:image" content="https://seudominio.com/imagem-preview.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="./style.css">
+
+
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Paiva - Portfólio</title>
+    <!-- Link CSS externo ou interno -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="Mídia.jpg" alt="Foto de Perfil" class="logo" />
+        </div>
+
+        <div class="hero" role="banner">
+            <h1>Olá, eu sou <span id="animated-name">Nicolas Paiva</span></h1>
+            <p>Desenvolvedor Web</p>
+            <a href="#contato" class="btn-primary">Fale comigo</a>
+        </div>
+
+        <!-- Navegação principal -->
+        <nav id="menu" aria-label="Menu Principal">
+            <a href="#servicos">Serviços</a>
+            <a href="#skills">Skills</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#conquistas">Conquistas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <!-- Botões -->
+        <button id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+            <span class="hamburger"></span>
+        </button>
+        <button id="toggleTheme" aria-pressed="false">🌞</button>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Sobre Mim -->
+        <section id="sobre" tabindex="-1" aria-label="Sobre Nicolas Paiva" style="padding: 60px 20px;">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-container">
+                <!-- Card que gira -->
+                <div class="foto-video-card" id="fotoVideoCard">
+                    <div class="card-face frente">
+                        <img src="Mídia.jpg" alt="Foto de perfil de Nicolas Paiva" class="sobre-foto" />
+                    </div>
+                    <div class="card-face verso">
+                        <video src="./paivaanimação.mp4" autoplay muted loop></video>
+                    </div>
+                </div>
+
+                <div class="sobre-texto">
+                    <p>Olá! Eu sou <strong>Nicolas Paiva</strong>, desenvolvedor web iniciante apaixonado por tecnologia e inovação.</p>
+                    <p>Tenho conhecimento em <strong>HTML, CSS e JavaScript</strong>, e atualmente estou aprendendo <strong>React</strong> para criar interfaces modernas e interativas.</p>
+                    <p>Além do desenvolvimento, participei da equipe de robótica <strong>Hortobots</strong>, representando o Brasil na <strong>RoboCup Mundial</strong>. Conquistamos <strong>2º lugar no regional</strong> e <strong>1º lugar no estadual e nacional</strong>.</p>
+                    <p>Meu objetivo é conquistar minha primeira oportunidade como desenvolvedor web e continuar evoluindo através de novos desafios.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos" aria-label="Serviços oferecidos" style="padding: 60px 20px;">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>Sites Institucionais</h3>
+                    <p>Criação de sites simples e funcionais para apresentar sua empresa ou projeto na web.</p>
+                </div>
+                <div class="card">
+                    <h3>Design Responsivo</h3>
+                    <p>Desenvolvimento de páginas que se adaptam perfeitamente a dispositivos móveis e desktops.</p>
+                </div>
+                <div class="card">
+                    <h3>Melhorias em Sites</h3>
+                    <p>Correções, ajustes visuais e funcionais para deixar seu site mais moderno e eficiente.</p>
+                </div>
+                <div class="card">
+                    <h3>Manutenção</h3>
+                    <p>Atualizações e suporte para garantir que seu site funcione sempre bem e atualizado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="skills" aria-label="Habilidades e Tecnologias" style="padding: 60px 20px;">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills">
+                <div class="card">
+                    <h3>Tecnologias</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React (básico)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Ferramentas</h3>
+                    <ul>
+                        <li>Git e GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma (noções básicas)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" tabindex="-1" aria-label="Projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <h3>Batalha Naval</h3>
+                    <img src="./Batalha Naval.png" alt="Screenshot do jogo Batalha Naval" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                    <p>Jogo clássico de tabuleiro desenvolvido com HTML, CSS e JavaScript.</p>
+                    <div class="project-links">
+                        <a href="https://nicolaspaiva14.github.io/batalhaNaval/" target="_blank" class="btn">Ver Online</a>
+                        <a href="https://github.com/Nicolaspaiva14/batalhaNaval" target="_blank" class="btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <h3>Quiz de Amor</h3>
+                    <img src="./Quiz do amor.png" alt="Screenshot do Quiz de Amor" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                    <p>Quiz divertido feito para o Dia dos Namorados, usando HTML, CSS e JavaScript.</p>
+                    <div class="project-links">
+                        <a href="https://nicolaspaiva14.github.io/quiz/" target="_blank" class="btn">Ver Online</a>
+                        <a href="https://github.com/Nicolaspaiva14/quiz" target="_blank" class="btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <h3>Hortobots – Equipe de Robótica</h3>
+                    <img src="./Hortobots.png" alt="Screenshot do site Hortobots" style="width:100%; border-radius:8px; margin-bottom:10px;">
+                    <p>Site institucional da equipe de robótica Hortobots, totalmente responsivo, apresentando projetos, equipe e objetivos.</p>
+                    <div class="project-links">
+                        <a href="https://hortobots.github.io/Hortobots/" target="_blank" class="btn">Ver Online</a>
+                        <a href="https://github.com/Nicolaspaiva14/Hortobots" target="_blank" class="btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conquistas -->
+        <section id="conquistas" tabindex="-1" aria-label="Principais Conquistas">
+            <h2 class="section-title">Principais Conquistas</h2>
+            <ul class="conquistas-list">
+                <li>🚀 Mais de 5 projetos entregues com sucesso</li>
+                <li>🏆 Certificação em Desenvolvimento Web pela XYZ</li>
+                <li>📈 Aumento de 30% na performance dos sites desenvolvidos</li>
+                <li>💡 Criação de site responsivo para equipe de robótica Hortobots</li>
+                <li>🎯 Desenvolvimento de quiz interativo para campanha especial</li>
+            </ul>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" tabindex="-1" aria-label="Formulário de contato">
+            <h2 class="section-title">Contato</h2>
+            <form id="contactForm" novalidate>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required aria-required="true" aria-describedby="nameError" />
+                <span id="nameError" class="error-message" aria-live="polite"></span>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required aria-required="true" aria-describedby="emailError" />
+                <span id="emailError" class="error-message" aria-live="polite"></span>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Escreva sua mensagem aqui..." rows="5" required aria-required="true" aria-describedby="messageError"></textarea>
+                <span id="messageError" class="error-message" aria-live="polite"></span>
+
+                <button type="submit">Enviar</button>
+                <div id="formMessage" role="alert" aria-live="assertive"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Nicolas Paiva. Todos os direitos reservados.
+    </footer>
+
+    <!-- Botão Voltar ao topo -->
+    <button id="backToTop" aria-label="Voltar ao topo" title="Voltar ao topo" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up" role="img"
+            aria-hidden="true" focusable="false">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+  <script src="script.js"></script>
+</body>
+</html>
